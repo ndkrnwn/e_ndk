@@ -1,0 +1,44 @@
+.input-group .input-area:focus{
+    border: 2px solid royalblue;
+}
+
+.input-group .input-area:focus + .label{
+    top: -15px;
+    left: 0px;
+    font-size: 11px;
+    color: royalblue;
+}
+
+.input-group .label{
+    top: -8px;
+    padding: 0 3px;
+    font-size: 11px;
+    color: #8d8d8d;
+    position: absolute;
+    left: 13px;
+    background: #ffffff;
+}
+.input-group .detail-area{
+    outline: none;
+    /* border: 1px solid #dadce0; */
+    padding: 12px 3px;
+    font-size: 14px;
+    /* border-radius: 5px; */
+}
+
+.input-group .label-detail{
+    top: -12px;
+    padding: 0 3px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    /* left: 13px; */
+    background: #ffffff;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+
+

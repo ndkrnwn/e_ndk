@@ -1,0 +1,13 @@
+build/PHPExcel.phar
+unitTests/codeCoverage
+analysis
+DS_Store
+.DS_Store
+vendor
+composer.lock
+
+## IDE support
+*.buildpath
+*.project
+/.settings
+/.idea
